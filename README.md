@@ -37,6 +37,8 @@ For WampServer, once you installed it, open phpMyAdmin and choose MySQL as the d
 Create the database as "fyp" and choose ```utf8mb4_unicode_ci``` as collation. Then, import the fyp.sql file into the database.
 
 ## Modify the project folder
+Extract the compressed file.
+
 Since the frontend part (ReactJS) has been compiled into production mode, therefore there is no ```node_modules``` in the project folder. However, if you wish to edit the frontend code, you may re-install the modules by using the command line below:
 ```npm install```
 
