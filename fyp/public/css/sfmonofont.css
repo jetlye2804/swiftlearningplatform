@@ -1,0 +1,26 @@
+/*SF Mono*/
+/*Use for code samples only*/
+
+/*Semibold*/
+@font-face
+{
+    font-family: "SF Mono";
+    src: url("fonts/SF-Mono-Semibold.otf");
+    font-weight: 600;
+}
+
+/*Regular*/
+@font-face
+{
+    font-family: "SF Mono";
+    src: url("fonts/SF-Mono-Regular.otf");
+    font-weight: 400;
+}
+
+/*Light*/
+@font-face
+{
+    font-family: "SF Mono";
+    src: url("fonts/SF-Mono-Light.otf");
+    font-weight: 200;
+}

@@ -1,0 +1,53 @@
+/*SF Pro Display*/
+/*Use when font size is <= 20 pt*/
+
+/*Semibold*/
+@font-face
+{
+    font-family: "SF Pro Display";
+    src: url("fonts/SF-Pro-Display-Semibold.otf");
+    font-weight: 600;
+}
+
+/*Regular*/
+@font-face
+{
+    font-family: "SF Pro Display";
+    src: url("fonts/SF-Pro-Display-Regular.otf");
+    font-weight: 400;
+}
+
+/*Light*/
+@font-face
+{
+    font-family: "SF Pro Display";
+    src: url("fonts/SF-Pro-Display-Light.otf");
+    font-weight: 200;
+}
+
+/*SF Pro Text*/
+/*Use when font size is < 20 pt*/
+
+/*Semibold*/
+@font-face
+{
+    font-family: "SF Pro Text";
+    src: url("fonts/SF-Pro-Text-Semibold.otf");
+    font-weight: 600;
+}
+
+/*Regular*/
+@font-face
+{
+    font-family: "SF Pro Text";
+    src: url("fonts/SF-Pro-Text-Regular.otf");
+    font-weight: 400;
+}
+
+/*Light*/
+@font-face
+{
+    font-family: "SF Pro Text";
+    src: url("fonts/SF-Pro-Text-Light.otf");
+    font-weight: 200;
+}
