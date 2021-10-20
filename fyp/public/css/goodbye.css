@@ -1,0 +1,54 @@
+@import url("sfprofont.css");
+
+*
+{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body
+{
+  min-width: 1280px;
+  background-color: rgb(241, 241, 241);
+}
+
+.goodbyetitle
+{
+    text-align: center;
+}
+
+.logobox{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    height: 200px;
+    width: 200px;
+    background-image: url("../images/swiftlogo.png");
+    background-repeat: no-repeat;
+    background-size: 200px;
+}
+
+h1
+{
+    font-family: "SF Pro Display";
+    font-weight: 600;
+    font-size: 52px;
+}
+
+p, a
+{
+    font-family: "SF Pro Text";
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.goodbyetext
+{
+    margin-top: 50px;
+    width: 50%;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+}

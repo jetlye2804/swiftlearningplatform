@@ -1,0 +1,187 @@
+@import url("sfprofont.css");
+
+body
+{
+    background-color: rgb(241, 241, 241);
+}
+
+.titleClass
+{
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.titleClass h1
+{
+    font-family: "SF Pro Display";
+    font-weight: 600;
+    font-size: 52px;
+}
+
+.box
+{
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.chatbox, .onlinebox, .chatContent, .deleteBtn
+{
+    display: inline-block;
+}
+
+#delete
+{
+    background-color: rgb(109, 161, 161);
+    width: 100%;
+}
+
+.chatbox, .onlinebox
+{
+    background-color: rgb(172, 194, 255);
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.chatbox
+{
+    width: 70%;
+}
+
+.onlinebox
+{
+    vertical-align: top;
+    width: 20%;
+}
+
+.boxheader
+{
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.boxheader h1
+{
+    font-family: "SF Pro Display";
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.boxbody
+{
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    overflow-y: scroll;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.boxbody::-webkit-scrollbar { 
+    width: 10px;
+}
+
+.boxbody::-webkit-scrollbar-track { 
+    box-shadow: inset 0 0 5px gray; 
+    border-radius: 10px;
+}
+
+.boxbody::-webkit-scrollbar-thumb { 
+    background: rgb(56, 131, 218); 
+    border-radius: 10px;
+}
+
+.boxbody::-webkit-scrollbar-thumb:hover { 
+    background: rgb(47, 81, 121); 
+    border-radius: 10px;
+}
+
+.chatBubble
+{
+    margin-bottom: 25px;
+    width: 50%;
+}
+
+.chatBubble p
+{
+    font-family: "SF Pro Display";
+    font-weight: 400;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    white-space: pre-line;
+}
+
+.chatUser
+{
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+#ownChat .chatUser
+{
+    background-color: rgb(83, 192, 255);
+    width: 400px;
+}
+
+#otherChat .chatUser
+{
+    background-color: rgb(154, 255, 154);
+    width: 400px;
+}
+
+#adminChat .chatUser
+{
+    background-color: rgb(255, 154, 154);
+    width: 400px;
+}
+
+.chatContent
+{
+    background-color: rgb(180, 179, 247);
+    width: fit-content;
+    border-radius: 10px;
+}
+
+form
+{
+    display: flex;
+    flex-direction: row;
+}
+
+textarea
+{
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    font-family: "SF Pro Text";
+    font-weight: 400;
+    font-size: 18px;
+    resize: none;
+    width: 90%;
+}
+
+button
+{
+    border: none;
+    border-radius: 10px;
+    width: 10%;
+    height: 30px;
+    margin-left: 20px;
+    font-family: "SF Pro Display";
+    font-weight: 400;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#onlineusers
+{
+    font-family: "SF Pro Text";
+    font-weight: 400;
+    font-size: 18px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    padding: 5px;
+    background-color: rgb(203, 238, 255);
+}

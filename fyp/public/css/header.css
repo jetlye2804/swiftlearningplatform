@@ -1,0 +1,120 @@
+*
+{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body
+{
+  min-width: 1280px;
+}
+
+header
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  background-color: rgb(122, 196, 245);
+}
+
+.nav__links p,
+.cta,
+.overlay__content a,
+.column a
+{
+  font-family: "SF Pro Display";
+  font-weight: 400;
+  color: black;
+  text-decoration: none;
+}
+
+.nav__links
+{
+  list-style: none;
+  margin-left: 0px;
+}
+
+.nav__links li
+{
+  width: 100px;
+  height: 40px;
+  line-height: 40px;
+  float: left;
+  text-align: center;
+  margin-left: 25px;
+  margin-right: 25px;
+
+}
+
+.nav__links li p
+{
+    transition: all 0.3s ease 0s;
+    display: block;
+}
+
+.nav__links li p:hover
+{
+  color: blue;
+  border-radius: 50px;
+  transition: all 0.3s ease 0s;
+}
+
+.nav__links li .dropdown_content .column a:hover{
+  background-color: rgba(66, 66, 66, 1.0);
+  color:white;
+}
+
+.nav__links li:hover .dropdown_content
+{
+  display: block;
+}
+
+.sub__nav
+{
+  list-style: none;
+  display: none;
+}
+
+.sub__nav li
+{
+  position: relative;
+  z-index: 99;
+  background-color: rgb(34, 34, 34);
+  border-top: 2px solid black;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.cta {
+  padding: 9px 30px 9px 30px;
+  background-color: rgb(201, 255, 190);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.cta:hover {
+  background-color: rgba(66, 66, 66, 1.0);
+  color: white;
+}
+
+.login_name
+{
+	position: static;
+}
+
+.buttons
+{
+  position: static;
+  margin-right: 20px;
+}
+
+.cta#profile, .cta#login, .cta#home
+{
+  margin-right: 20px;
+}
